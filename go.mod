@@ -1,4 +1,4 @@
-module sigs.k8s.io/apiserver-builder-alpha
+module github.com/rchitta2205/apiserver-builder-alpha
 
 go 1.17
 
@@ -17,6 +17,7 @@ require (
 	k8s.io/client-go v0.23.5
 	k8s.io/klog/v2 v2.30.0
 	k8s.io/kube-aggregator v0.23.5
+	sigs.k8s.io/apiserver-builder-alpha v1.23.0
 	sigs.k8s.io/kubebuilder/v3 v3.3.0
 )
 
